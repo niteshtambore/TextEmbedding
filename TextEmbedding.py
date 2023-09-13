@@ -4,7 +4,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from openai.embeddings_utils import cosine_similarity
 
 # Set your OpenAI API key as an environment variable
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Your API key here"
 
 # Define a dictionary containing words you want to embed
 data = {"Words": ["College", "Car", "Student", "Orange"]}
